@@ -2,6 +2,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 
 import { socialMedia } from "@/data";
 import MagicButton from "./MagicButton";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -10,16 +11,16 @@ const Footer = () => {
         <img
           src="/footer-grid.svg"
           alt="grid"
-          className="w-full h-full opacity-50 "
+          className="w-full h-full opacity-10 "
         />
       </div>
 
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center bg-transparent">
         <h1 className="heading lg:max-w-[45vw] text-black">
-          ¿Estás listo para llevar <span className="text-[#f0c200]">tu</span> digital presencia digital al siguiente nivel?
+          ¿Estás listo para llevar <span className="text-[#f0c200]">tu</span> presencia digital al siguiente nivel?
         </h1>
-        <p className="text-black md:mt-10 my-5 text-center">
-          Comuníquese conmigo hoy y analicemos cómo puedo ayudarlo a alcanzar sus objetivos.
+        <p className="text-black md:mt-10 my-5 text-center bg-transparent">
+          Comuníquese con nosotros hoy y analicemos cómo podemos ayudarlo a alcanzar sus objetivos.
         </p>
         <a href="mailto:contact@jsmastery.pro">
           <button className="relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden p-[1px] focus:outline-none">

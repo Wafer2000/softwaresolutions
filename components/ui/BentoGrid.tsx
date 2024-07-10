@@ -8,6 +8,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "../MagicButton";
 import Lottie from "react-lottie";
 import GlobeDemo from "./GridGlobe";
+import Image from "next/image";
 
 export const BentoGrid = ({
   className,

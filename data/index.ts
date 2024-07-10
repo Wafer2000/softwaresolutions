@@ -15,7 +15,7 @@ export const gridItems = [
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
     img: "/b1.svg",
-    spareImg: "",
+    spareimg: "",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-start",
     img: "",
-    spareImg: "",
+    spareimg: "",
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-center",
     img: "",
-    spareImg: "",
+    spareimg: "",
   },
   {
     id: 4,
@@ -45,7 +45,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-start",
     img: "/grid.svg",
-    spareImg: "/b4.svg",
+    spareimg: "/b4.svg",
   },
 
   {
@@ -56,7 +56,7 @@ export const gridItems = [
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
     img: "/b5.svg",
-    spareImg: "/grid.svg",
+    spareimg: "/grid.svg",
   },
   {
     id: 6,
@@ -66,7 +66,7 @@ export const gridItems = [
     imgClassName: "",
     titleClassName: "justify-center md:max-w-full max-w-60 text-center",
     img: "",
-    spareImg: "",
+    spareimg: "",
   },
 ];
 
