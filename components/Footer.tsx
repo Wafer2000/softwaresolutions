@@ -15,20 +15,19 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+        <h1 className="heading lg:max-w-[45vw] text-black">
+          ¿Estás listo para llevar <span className="text-[#f0c200]">tu</span> digital presencia digital al siguiente nivel?
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          Reach out to me today and let&apos;s discuss how I can help you
-          achieve your goals.
+        <p className="text-black md:mt-10 my-5 text-center">
+          Comuníquese conmigo hoy y analicemos cómo puedo ayudarlo a alcanzar sus objetivos.
         </p>
         <a href="mailto:contact@jsmastery.pro">
-          <MagicButton
-            title="Let's get in touch"
-            icon={<FaLocationArrow />}
-            position="right"
-          />
+          <button className="relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden p-[1px] focus:outline-none">
+            <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+            <span className='inline-flex h-full w-full cursor-pointer items-center justify-center bg-[#f0c200] bg-opacity-70 border-2 border-[#FFBD59] border-opacity-50 px-7 text-sm font-medium text-white backdrop-blur-2xl gap-2'>
+              Mantengámonos en contacto
+            </span>
+          </button>
         </a>
       </div>
       <div className="flex mt-16 md:flex-row flex-col justify-between items-center">

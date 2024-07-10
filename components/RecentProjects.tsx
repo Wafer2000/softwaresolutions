@@ -23,7 +23,7 @@ const RecentProjects = () => {
             >
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
-                  className="relative w-full h-full overflow-hidden lg:rounded-3xl"
+                  className="relative w-full h-full overflow-hidden"
                   style={{ backgroundColor: "#13162D" }}
                 >
                   <img src="/bg.png" alt="bgimg" />
@@ -31,7 +31,7 @@ const RecentProjects = () => {
                 <img
                   src={item.img}
                   alt="cover"
-                  className="z-10 absolute bottom-0"
+                  className="block w-full mx-auto object-cover object-center"
                 />
               </div>
 
@@ -62,13 +62,6 @@ const RecentProjects = () => {
                       <img src={icon} alt="icon5" className="p-2" />
                     </div>
                   ))}
-                </div>
-
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-[#D19845]">
-                    Revisa el sitio
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#D19845" />
                 </div>
               </div>
             </PinContainer>

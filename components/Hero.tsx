@@ -1,12 +1,9 @@
 import React from 'react'
-import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
-import MagicButton from './MagicButton'
-import { FaLocationArrow } from 'react-icons/fa6'
 
 const Hero = () => {
   return (
-    <div className='pb-20 pt-36' id='Inicio'>
+    <div className='pb-20 pt-36' id='inicio'>
       <div className='h-screen w-full dark:bg-grid-black/[0.03] bg-grid-black-100/[0.2] absolute top-0 left-0 flex items-center justify-center'>
         <div className='absolute pointer-events-none inset-0 flex items-center justify-center' />
       </div>
@@ -27,7 +24,7 @@ const Hero = () => {
 
           <a href="#about">
             <button className="relative inline-flex h-12 w-full md:w-60 md:mt-10 overflow-hidden p-[1px] focus:outline-none">
-              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
+              <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#FFF_0%,#000_50%,#FFF_100%)]" />
               <span className='inline-flex h-full w-full cursor-pointer items-center justify-center bg-[#f0c200] bg-opacity-70 border-2 border-[#FFBD59] border-opacity-50 px-7 text-sm font-medium text-white backdrop-blur-2xl gap-2'>
                 Observa nuestro trabajo
               </span>

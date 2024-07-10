@@ -1,5 +1,5 @@
 export const navItems = [
-  { name: "Inicio", link: "#Inicio" },
+  { name: "Inicio", link: "#inicio" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
   { name: "Testimonials", link: "#testimonials" },
@@ -50,7 +50,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Desarrollando una biblioteca de animaciones JS",
+    title: "Desarrollando una biblioteca de animaciones JS, Dart, JSX",
     description: "Nuestra pasión interna",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -73,127 +73,105 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Soluciones de Software a Medida",
-    des: "Descubre cómo nuestras soluciones personalizadas pueden transformar tu negocio utilizando las últimas tecnologías.",
+    title: "Salud Inteligente",
+    des: 'El diseño de la aplicación se basa en la idea de ofrecer una experiencia integral y personalizada para el usuario.',
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/canva.svg"],
     link: "/ui.earth.com",
   },
   {
     id: 2,
-    title: "Conexión Directa - App de Videoconferencias",
-    des: "Simplifica tu experiencia de videoconferencia con Conexión Directa. Conéctate sin problemas con colegas y amigos.",
+    title: "Goosore para el Crecimiento Empresarial",
+    des: "Es un tablero de análisis fácil de usar y visualmente atractivo diseñado para ayudar a las empresas a obtener insights valiosos sobre su rendimiento y tomar decisiones más inteligentes.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/adobeI.svg", "/canva.svg"],
     link: "/ui.yoom.com",
   },
   {
     id: 3,
-    title: "Plataforma AI de Imágenes - Aplicación Canva",
-    des: "Una verdadera aplicación de Software como Servicio (SaaS) con características de inteligencia artificial y un sistema de pagos y créditos utilizando la última tecnología.",
+    title: "Mente Creativa",
+    des: "Es una aplicación de pensamiento de diseño que tiene como objetivo facilitar el proceso creativo para arquitectos, diseñadores e innovadores.",
     img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
+    iconLists: ["/flutter.svg", "/dart.svg", "/ts.svg", "/adobeI.svg", "/photoshop.svg"],
     link: "/ui.aiimg.com",
   },
   {
     id: 4,
-    title: "Sitio Web 3D Animado del iPhone Apple",
-    des: "Recreación del sitio web del iPhone 15 Pro de Apple, combinando animaciones GSAP y efectos 3D de Three.js.",
+    title: "SignaGestor",
+    des: "Gran aplicacion para la recoleccion de firmas y fotos, que se llevara a cabo en diferentes sectores, en donde se quiera tomar tal trabajo de manera eficiente y rapida.",
     img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
+    iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/canva.svg", "/photoshop.svg"],
     link: "/ui.apple.com",
   },
 ];
 
 export const testimonials = [
   {
-    quote: "Colaborar con nosotros fue un verdadero placer. Nuestra profesionalidad, prontitud y dedicación para ofrecer resultados excepcionales son evidentes en cada proyecto. Nuestro entusiasmo por cada aspecto del desarrollo realmente marca la diferencia. Si buscas potenciar tu marca y mejorar tu presencia en línea, somos el socio ideal.",
-    name: "Michael Johnson",
-    title: "Director de AlphaStream Technologies",
+    quote: "Trabajar con Software Solutions SAS fue una experiencia excepcional. Su profesionalidad, rapidez y dedicación para entregar resultados sobresalientes se reflejan en cada etapa del proyecto. El equipo mostró un entusiasmo increíble por todos los aspectos del desarrollo, lo que realmente marcó la diferencia. Si buscas una solución innovadora para la gestión de firmas y fotos de personas, Software Solutions SAS es el socio ideal.",
+    name: "Señor Martin",
+    title: "Gerente de Proyectos, Prodislima",
   },
   {
-    quote: "Colaborar con nosotros fue un verdadero placer. Nuestra profesionalidad, prontitud y dedicación para ofrecer resultados excepcionales son evidentes en cada proyecto. Nuestro entusiasmo por cada aspecto del desarrollo realmente marca la diferencia. Si buscas potenciar tu marca y mejorar tu presencia en línea, somos el socio ideal.",
-    name: "Michael Johnson",
-    title: "Director de AlphaStream Technologies",
+    quote: "Colaborar con Software Solutions SAS en la creación de nuestro portafolio digital fue una experiencia magnífica. Su profesionalismo, puntualidad y dedicación a la excelencia se evidenciaron en cada fase del proyecto. Su entusiasmo y atención al detalle realmente destacaron. Si buscas desarrollar un portafolio profesional y efectivo para un laboratorio clínico, Software Solutions SAS es la elección perfecta.",
+    name: "Martha Martinez Castro",
+    title: "Gerente, Landsteiner",
   },
   {
-    quote: "Colaborar con nosotros fue un verdadero placer. Nuestra profesionalidad, prontitud y dedicación para ofrecer resultados excepcionales son evidentes en cada proyecto. Nuestro entusiasmo por cada aspecto del desarrollo realmente marca la diferencia. Si buscas potenciar tu marca y mejorar tu presencia en línea, somos el socio ideal.",
+    quote: "Trabajar con Software Solutions SAS para desarrollar nuestro portafolio digital fue una experiencia excepcional. Su profesionalismo, puntualidad y dedicación para ofrecer resultados superiores se reflejaron en cada etapa del proyecto. Su pasión y minuciosidad realmente marcaron la diferencia. Si necesitas crear un portafolio impactante y efectivo para una firma de abogados enfocada en marketing y consultas, Software Solutions SAS es el socio ideal.",
     name: "Michael Johnson",
-    title: "Director de AlphaStream Technologies",
+    title: "Director de Een Books",
   },
   {
-    quote: "Colaborar con nosotros fue un verdadero placer. Nuestra profesionalidad, prontitud y dedicación para ofrecer resultados excepcionales son evidentes en cada proyecto. Nuestro entusiasmo por cada aspecto del desarrollo realmente marca la diferencia. Si buscas potenciar tu marca y mejorar tu presencia en línea, somos el socio ideal.",
-    name: "Michael Johnson",
-    title: "Director de AlphaStream Technologies",
-  },
-  {
-    quote: "Colaborar con nosotros fue un verdadero placer. Nuestra profesionalidad, prontitud y dedicación para ofrecer resultados excepcionales son evidentes en cada proyecto. Nuestro entusiasmo por cada aspecto del desarrollo realmente marca la diferencia. Si buscas potenciar tu marca y mejorar tu presencia en línea, somos el socio ideal.",
-    name: "Michael Johnson",
-    title: "Director de AlphaStream Technologies",
+    quote: "Colaborar con Software Solutions SAS para desarrollar nuestra aplicación de servicios fue una experiencia fenomenal. Su profesionalismo, puntualidad y dedicación para ofrecer resultados excepcionales se hicieron evidentes en cada paso del proyecto. La pasión y el detalle con que abordaron el desarrollo marcaron una gran diferencia. Si buscas optimizar la entrega de servicios de mantenimiento de computadores, creación de páginas web e instalación de cámaras, Software Solutions SAS es el socio ideal.",
+    name: "Diego Madrid",
+    title: "Presidente de Computic",
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    name: "Prodislima",
+    img: "/PDL.svg",
   },
   {
     id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    name: "Landsteiner",
+    img: "/labclinico.svg",
   },
   {
     id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    name: "Een Books",
+    img: "/eenbooks.svg",
   },
   {
     id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    name: "Computic.",
+    img: "/computic.svg",
   },
 ];
 
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Desarrollo de Aplicaciones",
+    desc: "Nos especializamos en el desarrollo de software de vanguardia, utilizando tecnologías punteras para crear soluciones robustas y escalables que impulsan la innovación y la eficiencia en su empresa.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "/exp1.png",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Diseño",
+    desc: "Nuestro enfoque en el diseño combina creatividad y funcionalidad para desarrollar experiencias visuales impactantes y centradas en el usuario, asegurando que cada proyecto refleje la identidad única de su marca y maximice el compromiso del usuario.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "/exp2.png",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Marketing",
+    desc: "Ofrecemos estrategias integradas de marketing digital y presencial diseñadas para aumentar la visibilidad de su marca y atraer clientes potenciales de manera efectiva, adaptándonos a las necesidades y objetivos específicos de su negocio.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
-    id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
-    className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp3.png",
   },
 ];
 
