@@ -1,9 +1,9 @@
 export const navItems = [
   { name: "Inicio", link: "#inicio" },
-  { name: "About", link: "#about" },
-  { name: "Projects", link: "#projects" },
-  { name: "Testimonials", link: "#testimonials" },
-  { name: "Contact", link: "#contact" },
+  { name: "Acerca de", link: "#about" },
+  { name: "Proyectos", link: "#projects" },
+  { name: "Testimonios", link: "#testimonials" },
+  { name: "Contacto", link: "#contact" },
 ];
 
 export const gridItems = [
@@ -73,27 +73,30 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "Salud Inteligente",
-    des: 'El diseño de la aplicación se basa en la idea de ofrecer una experiencia integral y personalizada para el usuario.',
+    title: "Consultas y Marketing para tu Empresa",
+    des: "Eenbooks ofrece servicios especializados en consultas y marketing, asegurando que las finanzas de tu empresa estén en manos expertas. Con nuestra ayuda, obtén estrategias efectivas y asesoramiento profesional para impulsar tu crecimiento empresarial.",
     img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg", "/canva.svg"],
-    link: "/ui.earth.com",
+    iconLists: ["/html.svg", "/css.svg", "/godaddy.svg", "/ninjahosting.svg", "/canva.svg"],
+    link: "https://eenbooks.com/",
+    name: "EenBooks"
   },
   {
     id: 2,
-    title: "Goosore para el Crecimiento Empresarial",
-    des: "Es un tablero de análisis fácil de usar y visualmente atractivo diseñado para ayudar a las empresas a obtener insights valiosos sobre su rendimiento y tomar decisiones más inteligentes.",
+    title: "Resultados Clínicos Online",
+    des: "Un portafolio integral diseñado para que los clientes del Laboratorio Clínico Landsteiner IPS S.A.S. puedan descargar fácilmente los resultados de sus análisis y estudios clínicos, brindándoles acceso rápido y seguro a su información médica.",
     img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/adobeI.svg", "/canva.svg"],
-    link: "/ui.yoom.com",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/hostinger.svg", "/canva.svg"],
+    link: "https://lablandsteiner.com/",
+    name: "LANDSTEINER"
   },
   {
     id: 3,
-    title: "Mente Creativa",
-    des: "Es una aplicación de pensamiento de diseño que tiene como objetivo facilitar el proceso creativo para arquitectos, diseñadores e innovadores.",
+    title: "Pryme Master",
+    des: "Pyme Master es una aplicación integral que facilita la administración de recursos, contabilidad, ventas de productos, registros en caja, ventas de empleados y revisión de stock de manera objetiva y concreta. Ideal para pequeñas y medianas empresas.",
     img: "/p3.svg",
-    iconLists: ["/flutter.svg", "/dart.svg", "/ts.svg", "/adobeI.svg", "/photoshop.svg"],
-    link: "/ui.aiimg.com",
+    iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/canva.svg", "/photoshop.svg"],
+    link: "https://www.canva.com/design/DAGHagTRcnY/-HckawIT3qSzApBTAmo-1w/edit?utm_content=DAGHagTRcnY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    name: "PymeMaster"
   },
   {
     id: 4,
@@ -101,7 +104,8 @@ export const projects = [
     des: "Gran aplicacion para la recoleccion de firmas y fotos, que se llevara a cabo en diferentes sectores, en donde se quiera tomar tal trabajo de manera eficiente y rapida.",
     img: "/p4.svg",
     iconLists: ["/flutter.svg", "/dart.svg", "/firebase.svg", "/canva.svg", "/photoshop.svg"],
-    link: "/ui.apple.com",
+    link: "https://www.canva.com/design/DAGH-zvw6DQ/P16F8XlHZi301K_DWfr4Sg/edit?utm_content=DAGH-zvw6DQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    name: "SignaGestor"
   },
 ];
 

@@ -19,7 +19,7 @@ const Hero = () => {
           />
 
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl text-black">
-            ¡Hola! Somos Software Solutions SAS, ubicada en Colombia. Nos especializamos en crear soluciones digitales innovadoras que impulsan el crecimiento y la eficiencia de tu negocio.
+            ¡Hola! Somos Software Solutions S.A.S., ubicada en Colombia. Nos especializamos en crear soluciones digitales innovadoras que impulsan el crecimiento y la eficiencia de tu negocio.
           </p>
 
           <a href="#about">
